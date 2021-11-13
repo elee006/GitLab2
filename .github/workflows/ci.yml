@@ -20,5 +20,5 @@ jobs:
       run: chmod +x gradlew              
     - name: Build and test
       working-directory: ./GitLab2-1
-      run: ../gradlew build 
+      run: ./gradlew build 
       
