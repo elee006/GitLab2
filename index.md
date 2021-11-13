@@ -1,6 +1,6 @@
 # Project Reports
 
-Your Name
+Erica Lee
 
 * [Tests](./reports/tests/test/)
 * [JavaDoc](./docs/javadoc/)
