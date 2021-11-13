@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VocabTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-13T02:39:28" hostname="Ericas-MacBook-Pro.local" time="0.032">
+  <properties/>
+  <testcase name="testAddWordPair()" classname="VocabTest" time="0.029"/>
+  <testcase name="testConstructor()" classname="VocabTest" time="0.0"/>
+  <testcase name="testAddStartingWord()" classname="VocabTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
