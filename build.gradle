@@ -24,11 +24,11 @@ test {
 task reports (dependsOn: ['test', 'javadoc'])
 task deployReports (type: Copy){
 
-    from(file('build/docs/'))
-    into(file('docs/'))
+    from 'build/docs/'
+    into 'docs/'
 
-    from(file('build/reports/'))
-    into(file('reports/'))
+    from 'build/reports/'
+    into 'reports/'
 
 }
 deployReports.finalizedBy reports
