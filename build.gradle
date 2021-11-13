@@ -21,7 +21,7 @@ test {
     useJUnitPlatform()
 }
 
-task reports (dependsOn: ['test', 'Javadoc'])
+task reports (dependsOn: ['test', 'javadoc'])
 task deployReports (type: Copy){
 
     from(file('build/docs/'))
@@ -31,6 +31,4 @@ task deployReports (type: Copy){
     into(file('reports/'))
 
 }
-deployReports.doFirst{
-        reports
-    }
+deployReports.finalizedBy reports
