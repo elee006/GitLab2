@@ -1,8 +1,0 @@
--classpath '/Users/elee019/GitLab2 2.50.24 PM/build/classes/java/main:/Users/elee019/GitLab2 2.50.24 PM/build/resources/main'
--d '/Users/elee019/GitLab2 2.50.24 PM/build/docs/javadoc'
--doctitle 'GitLab2 2.50.24 PM API'
--notimestamp 
--quiet 
--windowtitle 'GitLab2 2.50.24 PM API'
-'/Users/elee019/GitLab2 2.50.24 PM/src/main/java/Author.java'
-'/Users/elee019/GitLab2 2.50.24 PM/src/main/java/Vocabulary.java'
