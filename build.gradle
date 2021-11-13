@@ -20,3 +20,17 @@ test {
     ignoreFailures = true 
     useJUnitPlatform()
 }
+
+task reports (dependsOn: ['test', 'Javadoc'])
+task deployReports (type: Copy){
+
+    from(file('build/docs/'))
+    into(file('docs/'))
+
+    from(file('build/reports/'))
+    into(file('reports/'))
+
+}
+deployReports.doFirst{
+        reports
+    }
