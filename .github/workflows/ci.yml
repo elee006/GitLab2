@@ -20,6 +20,6 @@ jobs:
       run: chmod +x gradlew              
     
     - name: Build and test
-      working-directory: ./src
+      working-directory: .
       run: ../gradlew build 
       
